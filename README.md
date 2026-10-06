@@ -7,7 +7,8 @@ My learning repo for Python, ML and NLP fundamentals, on the way to LLM engineer
 1. Create and activate a virtual environment:
    python -m venv .venv
    .venv\Scripts\Activate.ps1
-2. Install PyTorch with CUDA from pytorch.org (Stable, Windows, Pip, newest CUDA).
+2. Install PyTorch with CUDA:
+   pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu132
 3. Verify the GPU:
    python check_gpu.py
 
